@@ -1,0 +1,30 @@
+#include <winver.h>
+1 ICON "arkt.ico"
+1 24 "lancador.manifest"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     @V1@,@V2@,@V3@,0
+PRODUCTVERSION  @V1@,@V2@,@V3@,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041604b0"
+    BEGIN
+      VALUE "CompanyName", "Marcos Santos"
+      VALUE "FileDescription", "Ark-T — gerência dos excitadores ARK-T"
+      VALUE "FileVersion", "@VERSAO@"
+      VALUE "InternalName", "Ark-T"
+      VALUE "LegalCopyright", "MIT"
+      VALUE "OriginalFilename", "Ark-T.exe"
+      VALUE "ProductName", "Ark-T"
+      VALUE "ProductVersion", "@VERSAO@"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x416, 1200
+  END
+END

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4b63"/>
+      <stop offset="1" stop-color="#1d2635"/>
+    </linearGradient>
+    <linearGradient id="frente" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f8fb"/>
+      <stop offset="1" stop-color="#d5dce6"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="112" height="104" rx="18" fill="#141b26"/>
+  <rect x="8" y="8" width="112" height="104" rx="18" fill="url(#fundo)"/>
+  <!-- ondas -->
+  <g fill="none" stroke-linecap="round" stroke-width="6">
+    <path d="M40 34 a34 34 0 0 0 0 44" stroke="#62a0ea" opacity="0.55"/>
+    <path d="M88 34 a34 34 0 0 1 0 44" stroke="#62a0ea" opacity="0.55"/>
+    <path d="M50 42 a22 22 0 0 0 0 28" stroke="#99c1f1"/>
+    <path d="M78 42 a22 22 0 0 1 0 28" stroke="#99c1f1"/>
+  </g>
+  <!-- torre -->
+  <g stroke="url(#frente)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M64 50 L50 100 M64 50 L78 100 M55 82 L73 82 M58 70 L70 70"/>
+  </g>
+  <circle cx="64" cy="56" r="7" fill="#f6d32d"/>
+  <rect x="44" y="98" width="40" height="6" rx="3" fill="url(#frente)"/>
+</svg>

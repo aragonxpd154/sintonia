@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Ark-T
+GenericName=Gerência de excitador ARK-T
+Comment=Monitora e configura excitadores ARK-T (MB International / Screen Service) sem Java
+Exec=arkt
+Icon=io.github.aragonxpd154.ArkT
+Terminal=false
+Categories=Network;Utility;
+Keywords=ARK-T;excitador;transmissor;ISDB-T;DVB-T;Screen Service;MB International;
+StartupNotify=true

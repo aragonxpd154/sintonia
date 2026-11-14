@@ -1,0 +1,27 @@
+Ark-T para Windows
+==================
+
+Gerência dos excitadores ARK-T (MB International / Screen Service) sem Java.
+
+Para abrir: clique duas vezes em Ark-T.exe.
+
+Nada aqui precisa de administrador nem de Java instalado: o Python e o
+GTK que o programa usa estão na pasta "runtime".
+
+Se o programa não abrir, use "Ark-T-depuracao.bat" para ver a mensagem
+de erro no console. Em máquinas virtuais ou placas de vídeo antigas, se a
+janela aparecer em branco, defina a variável de ambiente GSK_RENDERER=cairo.
+
+As configurações (equipamentos cadastrados) ficam em %APPDATA%\Ark-T.
+
+Rede: o programa usa as portas TCP 10001 (comandos), 80 (arquivos do
+equipamento) e 5000 (pré-correção). Ao abrir o simulador, o Firewall do
+Windows pode perguntar se libera as portas dele.
+
+Na primeira conexão o Ark-T lê as telas do programa original (.jar) que o
+próprio equipamento publica. Se ele não publicar, o Ark-T pede o arquivo
+(ex.: arkT_v5_5s.jar); isso é feito uma vez só.
+
+Código-fonte e novidades: https://github.com/aragonxpd154/sintonia (pasta ark-t)
+O Ark-T faz parte do Sintonia: programas nativos, sem Java, para
+equipamentos de transmissão.

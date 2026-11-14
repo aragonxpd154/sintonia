@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.aragonxpd154.ArkT</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Ark-T</name>
+  <summary>Gerência dos excitadores ARK-T sem Java</summary>
+  <description>
+    <p>Substituto nativo do ARK-T Installer Utility (applet Java) para monitorar e configurar
+    excitadores ARK-T ISDB-T e DVB-T pela porta de serviço TCP 10001.</p>
+    <p>Visão geral com potência, ROE, temperatura e alarmes; telas de entrada, modos, modulação,
+    saída, rede e GPS; tabela de alarmes; histórico de eventos com busca e exportação; modo edição
+    com confirmação; simulador embutido.</p>
+    <p>Editor da pré-correção AM/AM, AM/PM e linear (porta 5000), backup e restauração da
+    pré-correção e importação de configuração.</p>
+  </description>
+  <launchable type="desktop-id">io.github.aragonxpd154.ArkT.desktop</launchable>
+  <developer id="io.github.aragonxpd154"><name>Marcos Santos</name></developer>
+  <url type="homepage">https://github.com/aragonxpd154/sintonia/tree/main/ark-t</url>
+  <url type="bugtracker">https://github.com/aragonxpd154/sintonia/issues</url>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.1.0" date="2026-11-14"/>
+    <release version="1.0.0" date="2026-11-13"/>
+  </releases>
+</component>

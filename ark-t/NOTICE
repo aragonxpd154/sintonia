@@ -1,0 +1,24 @@
+ARK-T, MB International e Screen Service são marcas de seus respectivos
+donos. O Ark-T é um projeto independente, sem vínculo com esses fabricantes.
+
+Este repositório NÃO contém o programa original (ARK-T Installer Utility,
+arkT_v5_5s.jar), código dele, descompilado ou não, os textos e o layout das
+telas, manuais, ícones nem qualquer outro arquivo dos fabricantes.
+
+As telas são montadas a partir do .jar original que o usuário já tem: o
+próprio excitador publica esse arquivo na sua lista de arquivos, e o Ark-T
+o lê na primeira conexão (ou o usuário escolhe o .jar no menu, ou usa
+"arkt importar-jar"). O .jar é apenas lido — nenhuma parte dele é
+executada — e a descrição extraída fica no computador do usuário
+(~/.local/share/arkt no Linux, %APPDATA%\Ark-T no Windows).
+
+O protocolo de comunicação (portas TCP 10001 e 5000, HTTP) e os formatos de
+arquivo da pré-correção foram implementados a partir de análise para fins
+de interoperabilidade.
+
+O simulador (arkt/simulador.py) e os testes usam somente dados sintéticos.
+
+Os pacotes para Windows incluem, sem modificação, o Python
+(python-build-standalone, licença PSF) e o GTK 4, libadwaita, PyGObject e
+pycairo (gvsbuild; licenças LGPL/MPL, ver runtime\gtk\share\doc e
+runtime\python\Lib\site-packages\*.dist-info).

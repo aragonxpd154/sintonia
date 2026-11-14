@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
+  <defs>
+    <linearGradient id="trilho" gradientUnits="userSpaceOnUse" x1="240" y1="0" x2="1040" y2="0">
+      <stop offset="0" stop-color="#2a4a72"/>
+      <stop offset="1" stop-color="#f6d32d"/>
+    </linearGradient>
+    <pattern id="pontos" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1a2a40"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" fill="#080d16"/>
+  <rect width="1280" height="420" fill="url(#pontos)" opacity="0.7"/>
+  <text x="60" y="62" font-family="Inter Display, Inter, sans-serif" font-weight="700" font-size="30" fill="#f2f5fa">Do applet Java ao Ark-T</text>
+  <text x="60" y="94" font-family="Inter, sans-serif" font-size="18" fill="#7f8ea6">novembro de 2026 · Zorin OS e Windows · GTK4 + libadwaita</text>
+  <line x1="240" y1="160" x2="1040" y2="160" stroke="url(#trilho)" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Inter, sans-serif">
+    <circle cx="240" cy="160" r="16" fill="#0b1220" stroke="#62a0ea" stroke-width="5"/>
+    <text x="240" y="214" text-anchor="middle" font-weight="700" font-size="26" fill="#cfe0f7">1.0.0</text>
+    <text x="240" y="240" text-anchor="middle" font-size="16" fill="#7f8ea6">13 nov · Linux nativo, sem Java</text>
+    <g font-size="16" fill="#a9b6cc">
+      <text x="90" y="284">• visão geral com potência, ROE e alarmes</text>
+      <text x="90" y="310">• todas as telas do original, em português</text>
+      <text x="90" y="336">• alarmes, eventos e modo edição</text>
+      <text x="90" y="362">• pacote .deb e simulador embutido</text>
+    </g>
+    <circle cx="1040" cy="160" r="20" fill="#2a2310" stroke="#f6d32d" stroke-width="6"/>
+    <text x="1040" y="214" text-anchor="middle" font-weight="700" font-size="26" fill="#f6d32d">1.1.0</text>
+    <text x="1040" y="240" text-anchor="middle" font-size="16" fill="#7f8ea6">14 nov · pré-correção e Windows</text>
+    <g font-size="16" fill="#a9b6cc">
+      <text x="840" y="284">• editor de curvas AM/AM, AM/PM e linear</text>
+      <text x="840" y="310">• backup/restauração da pré-correção</text>
+      <text x="840" y="336">• importar configuração · regras DVB-T</text>
+      <text x="840" y="362">• instalador .exe e versão portátil</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+.led { font-size: 15px; }
+.led-verde { color: @success_color; }
+.led-vermelho { color: @error_color; }
+.led-amarelo { color: @warning_color; }
+.led-cinza { color: alpha(@window_fg_color, 0.25); }
+.led-azul { color: @accent_color; }
+
+.valor { font-feature-settings: "tnum"; }
+.valor-standby { color: alpha(@window_fg_color, 0.45); }
+.valor-erro { color: @error_color; }
+.pendente { color: @accent_color; }
+
+.cartao { padding: 14px 16px; border-radius: 12px; }
+.cartao-titulo { font-size: 0.85em; font-weight: 600; color: alpha(@window_fg_color, 0.65); }
+.cartao-valor { font-size: 1.85em; font-weight: 700; font-feature-settings: "tnum"; }
+.cartao-sub { font-size: 0.9em; color: alpha(@window_fg_color, 0.7); }
+.cartao.alerta { background-color: alpha(@error_bg_color, 0.14); }
+.cartao.ok { background-color: alpha(@success_bg_color, 0.10); }
+.cartao.aviso { background-color: alpha(@warning_bg_color, 0.14); }
+
+.matriz-cabecalho { font-weight: 700; color: alpha(@window_fg_color, 0.7); }
+.matriz-rotulo { color: alpha(@window_fg_color, 0.85); }
+.matriz { padding: 10px 14px; }
+
+.alarme-linha-ativa { background-color: alpha(@error_bg_color, 0.16); border-radius: 6px; }
+.alarme-nao-usado { color: alpha(@window_fg_color, 0.35); }
+.coluna-alarme { font-size: 0.8em; font-weight: 700; color: alpha(@window_fg_color, 0.7); }
+
+.evento-alarme { color: @error_color; }
+.evento-comando { color: @success_color; }
+.evento-inicio { color: @accent_color; }
+
+.titulo-tela { font-size: 1.5em; font-weight: 800; }
+.secao { font-weight: 700; }

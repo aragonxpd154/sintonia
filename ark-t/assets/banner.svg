@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <radialGradient id="glow" cx="0.74" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#1c3b63" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#080d16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pontos" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1a2a40"/>
+    </pattern>
+    <filter id="borra" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="20"/></filter>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4b63"/><stop offset="1" stop-color="#1d2635"/>
+    </linearGradient>
+    <linearGradient id="frente" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f8fb"/><stop offset="1" stop-color="#d5dce6"/>
+    </linearGradient>
+    <linearGradient id="curvaA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62a0ea"/><stop offset="1" stop-color="#99c1f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="#080d16"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect width="1280" height="640" fill="url(#pontos)" opacity="0.8"/>
+
+  <!-- curvas de pré-correção ao fundo -->
+  <g transform="translate(905 56) scale(0.62)" fill="none" stroke-linecap="round" opacity="0.8">
+    <g stroke="#1e3350" stroke-width="1">
+      <line x1="0" y1="0" x2="440" y2="0"/><line x1="0" y1="90" x2="440" y2="90"/>
+      <line x1="0" y1="180" x2="440" y2="180"/><line x1="0" y1="270" x2="440" y2="270"/>
+      <line x1="0" y1="360" x2="440" y2="360"/>
+      <line x1="0" y1="0" x2="0" y2="360"/><line x1="110" y1="0" x2="110" y2="360"/>
+      <line x1="220" y1="0" x2="220" y2="360"/><line x1="330" y1="0" x2="330" y2="360"/>
+      <line x1="440" y1="0" x2="440" y2="360"/>
+    </g>
+    <path d="M0 300 L440 300" stroke="#5b6b82" stroke-width="2.5" stroke-dasharray="8 7"/>
+    <path d="M0 300 C 120 296, 200 270, 260 220 S 360 90, 440 60" stroke="url(#curvaA)" stroke-width="5"/>
+    <path d="M0 250 C 90 250, 160 236, 230 205 S 360 160, 440 170" stroke="#e01b24" stroke-width="3" opacity="0.8"/>
+    <g fill="#ffffff" stroke="#62a0ea" stroke-width="4">
+      <circle cx="0" cy="300" r="8"/><circle cx="260" cy="220" r="8"/><circle cx="440" cy="60" r="8"/>
+    </g>
+    <circle cx="260" cy="220" r="11" fill="#e66100" stroke="#62a0ea" stroke-width="4"/>
+  </g>
+
+  <rect x="118" y="186" width="268" height="268" rx="70" fill="#000" opacity="0.5" filter="url(#borra)"/>
+  <g transform="translate(100 160) scale(2.4)">
+    <rect x="8" y="12" width="112" height="104" rx="18" fill="#141b26"/>
+    <rect x="8" y="8" width="112" height="104" rx="18" fill="url(#fundo)"/>
+    <g fill="none" stroke-linecap="round" stroke-width="6">
+      <path d="M40 34 a34 34 0 0 0 0 44" stroke="#62a0ea" opacity="0.55"/>
+      <path d="M88 34 a34 34 0 0 1 0 44" stroke="#62a0ea" opacity="0.55"/>
+      <path d="M50 42 a22 22 0 0 0 0 28" stroke="#99c1f1"/>
+      <path d="M78 42 a22 22 0 0 1 0 28" stroke="#99c1f1"/>
+    </g>
+    <g stroke="url(#frente)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M64 50 L50 100 M64 50 L78 100 M55 82 L73 82 M58 70 L70 70"/>
+    </g>
+    <circle cx="64" cy="56" r="7" fill="#f6d32d"/>
+    <rect x="44" y="98" width="40" height="6" rx="3" fill="url(#frente)"/>
+  </g>
+
+  <g font-family="Inter Display, Inter, sans-serif">
+    <text x="440" y="290" font-weight="800" font-size="104" fill="#f2f5fa" letter-spacing="-2">Ark-T</text>
+    <text x="444" y="346" font-family="Inter, sans-serif" font-size="30" fill="#99c1f1">Gerência dos excitadores ARK-T sem Java</text>
+    <text x="444" y="392" font-family="Inter, sans-serif" font-size="21" fill="#7f8ea6">Linux e Windows · ISDB-T e DVB-T · pré-correção AM/PM e linear</text>
+  </g>
+  <g font-family="Inter, sans-serif" font-size="17" font-weight="600">
+    <rect x="444" y="430" width="132" height="36" rx="18" fill="#132338" stroke="#2a4a72"/>
+    <text x="510" y="454" text-anchor="middle" fill="#99c1f1">GTK4 + Adw</text>
+    <rect x="588" y="430" width="132" height="36" rx="18" fill="#132338" stroke="#2a4a72"/>
+    <text x="654" y="454" text-anchor="middle" fill="#99c1f1">porta 10001</text>
+    <rect x="732" y="430" width="132" height="36" rx="18" fill="#2a2310" stroke="#6b5a1c"/>
+    <text x="798" y="454" text-anchor="middle" fill="#f6d32d">porta 5000</text>
+  </g>
+</svg>

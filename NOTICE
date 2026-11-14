@@ -1,0 +1,14 @@
+O Sintonia é um projeto independente, sem vínculo com os fabricantes dos
+equipamentos atendidos. ARK-T, MB International, Screen Service e as demais
+marcas citadas pertencem a seus respectivos donos.
+
+Este repositório NÃO contém os programas originais dos fabricantes (.jar),
+código deles (descompilado ou não), textos e layout das telas, manuais,
+ícones nem qualquer outro arquivo deles. Cada app lê, no computador do
+usuário, o programa original que ele já tem — em geral publicado pelo
+próprio equipamento — sem executá-lo. Os detalhes de cada app estão no
+NOTICE da pasta dele (por exemplo, ark-t/NOTICE).
+
+Os protocolos de comunicação e formatos de arquivo foram implementados a
+partir de análise para fins de interoperabilidade. Simuladores e testes usam
+somente dados sintéticos.

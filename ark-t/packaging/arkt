@@ -1,0 +1,2 @@
+#!/bin/sh
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/usr/lib/arkt exec /usr/bin/python3 -m arkt "$@"
