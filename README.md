@@ -21,9 +21,9 @@ O problema é sempre o mesmo. Excitadores, multiplexadores e afins chegaram com 
 
 | App | Equipamento | Situação | Pacotes |
 |---|---|---|---|
-| **[Ark-T](ark-t)** | excitadores **ARK-T** ISDB-T e DVB-T (MB International / Screen Service) — substitui o *ARK-T Installer Utility 5.5* | ![disponível](https://img.shields.io/badge/-1.1.0-33D17A) | [`.deb`, instalador e portátil do Windows](https://github.com/aragonxpd154/sintonia/releases) |
-| **ARK-6** | excitadores ARK-6 | ![em breve](https://img.shields.io/badge/-em%20breve-5F6E86) | — |
-| **Multiplexador** | multiplexador com gerência em Java | ![em breve](https://img.shields.io/badge/-em%20breve-5F6E86) | — |
+| **[Ark-T](ark-t)** | excitadores **ARK-T** ISDB-T e DVB-T (MB International / Screen Service) - substitui o *ARK-T Installer Utility 5.5* | ![disponível](https://img.shields.io/badge/-1.1.0-33D17A) | [`.deb`, instalador e portátil do Windows](https://github.com/aragonxpd154/sintonia/releases) |
+| **ARK-6** | excitadores ARK-6 | ![em breve](https://img.shields.io/badge/-em%20breve-5F6E86) | - |
+| **Multiplexador** | multiplexador com gerência em Java | ![em breve](https://img.shields.io/badge/-em%20breve-5F6E86) | - |
 
 <p align="center">
   <a href="ark-t"><img src="ark-t/assets/tela-precorrecao-ampm.png" alt="Ark-T: editor da pré-correção AM/AM e AM/PM" width="100%"></a><br>
@@ -34,7 +34,7 @@ O problema é sempre o mesmo. Excitadores, multiplexadores e afins chegaram com 
 
 ## Como os apps funcionam
 
-- **Nada do fabricante no repositório.** As telas de cada equipamento (que campo fica em que posição, comandos, opções) saem do programa original. O app lê o `.jar` que o próprio equipamento publica — ou que você já tem —, **sem executá-lo**, e guarda a descrição no seu computador. Veja o [`NOTICE`](NOTICE).
+- **Nada do fabricante no repositório.** As telas de cada equipamento (que campo fica em que posição, comandos, opções) saem do programa original. O app lê o `.jar` que o próprio equipamento publica - ou que você já tem -, **sem executá-lo**, e guarda a descrição no seu computador. Veja o [`NOTICE`](NOTICE).
 - **Mesma conversa com o equipamento.** Os protocolos (TCP, HTTP, arquivos de configuração e de pré-correção) são reproduzidos e conferidos contra o programa original (a matemática da pré-correção do Ark-T, por exemplo, dá resultado idêntico ao do Java).
 - **Seguro para usar no ar.** Nada é alterado sem o modo edição, e toda mudança sensível mostra os comandos antes de enviar.
 - **Simulador embutido** em cada app, para treinar e testar sem mexer no transmissor.
@@ -42,13 +42,13 @@ O problema é sempre o mesmo. Excitadores, multiplexadores e afins chegaram com 
 
 ## Instalação
 
-Cada app tem as instruções na própria pasta — por exemplo, [Ark-T](ark-t#instalação). Os pacotes ficam na página de [Releases](https://github.com/aragonxpd154/sintonia/releases), uma Release por versão de cada app (`Ark-T 1.1.0`, …).
+Cada app tem as instruções na própria pasta - por exemplo, [Ark-T](ark-t#instalação). Os pacotes ficam na página de [Releases](https://github.com/aragonxpd154/sintonia/releases), uma Release por versão de cada app (`Ark-T 1.1.0`, …).
 
 ## Estrutura
 
 ```text
 sintonia/
-├── ark-t/          Ark-T — excitadores ARK-T (código, testes, pacotes, prints)
+├── ark-t/          Ark-T - excitadores ARK-T (código, testes, pacotes, prints)
 ├── assets/         logo e banner do Sintonia
 └── .github/        testes e Releases de cada app (ark-t.yml, ark-t-release.yml)
 ```
